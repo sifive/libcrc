@@ -130,8 +130,8 @@ ${EXADIR}${OBJDIR}%${OBJEXT} : ${EXADIR}%.c
 
 all:							\
 	${LIBDIR}libcrc${LIBEXT}			\
-	testall${EXEEXT}				\
-	tstcrc${EXEEXT}
+#	testall${EXEEXT}				\
+#	tstcrc${EXEEXT}
 
 #
 # This target cleans up all files created in the compilation phase.
