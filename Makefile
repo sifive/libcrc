@@ -103,10 +103,10 @@ AR     = ar
 ARQC   = qc 
 ARQ    = q
 RANLIB = ranlib
+XCFLAGS = 
 CFLAGS = -Wall -Wextra -Wstrict-prototypes -Wshadow -Wpointer-arith \
 	-Wcast-qual -Wcast-align -Wwrite-strings -Wredundant-decls \
-	-Wnested-externs -Werror -O3 -funsigned-char -I${INCDIR}
-
+	-Wnested-externs -Werror ${XCFLAGS} -funsigned-char -I${INCDIR}
 endif
 
 #
