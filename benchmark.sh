@@ -37,4 +37,3 @@ mkdir -p $outputdir
 build_bench "-march=rv32gc -mabi=ilp32d" "$outputbase/bench_output_32gc"
 build_bench "-march=rv64gc -mabi=lp64d" "$outputbase/bench_output_64gc"
 build_bench "-march=rv32imac -mabi=ilp32" "$outputbase/bench_output_32imac"
-build_bench "-march=rv64imac -mabi=lp64" "$outputbase/bench_output_32imac"
